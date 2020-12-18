@@ -23,8 +23,8 @@ public class MyResource {
 	@GET 
     public String datas() {
     	return Json.createArrayBuilder().
-    			add(data(1,"Titanic",1998,"Dramatic")).
-    			add(data(2,"Transformers 1",2004,"Action")).
+    			add(data(1,"Titanic",1998,"Dramatique")).
+    			add(data(2,"Transformers 1",2004,"Fantastique")).
     			add(data(3,"Fast and Furious",2007,"Action")).
     			build().toString();
     }
